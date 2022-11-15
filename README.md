@@ -1,4 +1,4 @@
-# Presentasi-minggu-8
+
 
 # Presentasi Minggu 8 
 # React-context dan React-testing
@@ -10,9 +10,8 @@ React-context merupakan library built-in pada react js yang sebenar nya tidak da
     import React from "react"; 
     const UserContext = React.createContext(); 
     export default UserContext;
-Dalam penggunaan react-context kita menggunakan 2 awal pada Tag yaitu  `Context.Provider` dan `Context.Consumer` dimana **context provider** digunakan untuk menyediakan data agar bisa di akses oleh komponen lainnya dan **context consumer** digunakan untuk mengakses data tersebut yang di sediakan oleh **context provider**. 
+Dalam penggunaan react-context kita menggunakan 2 awal pada Tag yaitu  `Context.Provider` dan `Context.Consumer` dimana **context provider** digunakan untuk menyediakan data agar bisa di akses oleh komponen lainnya dan **context consumer** digunakan untuk mengakses data tersebut yang di sediakan oleh **context provider**. Contoh penggunakan nya: 
 
-Contoh penggunakan nya: 
 ![enter image description here](https://i.postimg.cc/NfZW9gS9/image.png)
 
 
